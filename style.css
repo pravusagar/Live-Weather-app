@@ -1,0 +1,43 @@
+#input,button{
+    padding: 10px 10px;
+   font-size: large;
+   margin-left: 20px;
+   font-weight: bold;
+   margin-bottom: 15px;
+}
+
+#result{
+    display: flex;
+}
+#temp{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 50%;
+}
+#map{
+    margin-right: 20px;
+    width: 50%;
+    margin-top: 30px;
+}
+#seven{
+    margin: auto;
+    width: 1000px;
+    height:200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly
+}
+#seven>div{
+    text-align: center;
+    width:150px;
+    border: 2px solid darkblue;
+    background-color: rgb(169, 169, 226);
+    
+}
+#seven>div:nth-child(1){
+    background-color: rgb(142, 142, 240);
+}
+#seven>div:hover{
+    cursor: pointer;
+    background-color: rgb(92, 92, 122)
+}
